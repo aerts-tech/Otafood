@@ -1082,6 +1082,20 @@
   html[lang="en"] body [lang="en"]{ display:revert }
   html[lang="de"] body [lang="de"]{ display:revert }
 
+
+  /* Clickable link inside an init-card body (plant-based eggs) */
+  .eggs-link{
+    color:var(--orange-700);
+    font-weight:600;
+    border-bottom:1.5px solid rgba(232,93,44,.4);
+    padding-bottom:1px;
+    transition:border-color .2s ease;
+    white-space:nowrap;
+  }
+  .eggs-link:hover{
+    border-bottom-color:var(--orange);
+  }
+
 </style>
 </head>
 <body>
@@ -1518,25 +1532,27 @@
         <span class="init-status status-cooking"><span lang="nl">In de keuken</span><span lang="en">In the kitchen</span><span lang="de">In der Küche</span></span>
         <h3><span lang="nl">Plantaardige eieren</span><span lang="en">Plant-based eggs</span><span lang="de">Pflanzliche Eier</span></h3>
         <p lang="nl">
-          Een ei dat rechtstreeks van het land komt, in plaats van via
-          een kip. Gekookt, gepocheerd, scrambled — werknaam wisselt elke maand,
-          dus daar wachten we even mee. We praten met sterke
-          internationale partners, Nederlandse supermarkten zijn geïnteresseerd
-          en we blijven door ontwikkelen.
+          Een ei dat gemaakt wordt van reststromen welke anders naar veevoer
+          zouden gaan. Waarom zou dat via een kip moeten? Gekookt, gepocheerd,
+          scrambled: we zoeken het uit. We zijn deelnemer aan een project,
+          mede gefinancierd met Europese steun. Voor meer informatie:
+          <a href="https://www.eizonderkip.nl" target="_blank" rel="noopener" class="eggs-link">www.eizonderkip.nl</a>
         </p>
         <p lang="en">
-          An egg that comes straight from the land instead of via a chicken.
-          Boiled, poached, scrambled — the working name changes monthly,
-          so we'll hold off on the announcement. We're in talks with strong
-          international partners, Dutch supermarkets are interested,
-          and we keep building.
+          An egg made from residual streams that would otherwise go to
+          animal feed. Why would that need to travel via a chicken?
+          Boiled, poached, scrambled: we're figuring it out.
+          We're part of a project, co-financed with European support.
+          More information:
+          <a href="https://www.eizonderkip.nl" target="_blank" rel="noopener" class="eggs-link">www.eizonderkip.nl</a>
         </p>
       <p lang="de">
-          Ein Ei, das direkt vom Land kommt, statt über ein Huhn.
-          Gekocht, pochiert, scrambled — der Arbeitsname wechselt jeden Monat,
-          deshalb warten wir damit noch. Wir sprechen mit starken
-          internationalen Partnern, niederländische Supermärkte sind
-          interessiert, und wir entwickeln weiter.
+          Ein Ei, das aus Reststoffen gemacht wird, die sonst zu Tierfutter
+          werden würden. Warum sollte das über ein Huhn gehen? Gekocht,
+          pochiert, scrambled: wir finden es heraus. Wir nehmen an einem
+          Projekt teil, mitfinanziert mit europäischer Förderung.
+          Für mehr Informationen:
+          <a href="https://www.eizonderkip.nl" target="_blank" rel="noopener" class="eggs-link">www.eizonderkip.nl</a>
         </p>
         <span class="init-link" style="border-color:transparent; cursor:default">
           <span lang="nl">Status: het kan, het mag, het moet 🤞</span><span lang="en">Status: it can, it may, it must 🤞</span><span lang="de">Status: es geht, es darf, es muss 🤞</span>
